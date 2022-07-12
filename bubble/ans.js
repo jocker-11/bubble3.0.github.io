@@ -2,7 +2,7 @@
 document.getElementById("ans_submit").addEventListener("click", test);
 
 function test(){
-    // 請記得是要使用 document 物件的 getElementById() 方法
+    // 請記得是要使用 document 這個 DOM 物件的 getElementById() 方法
     var x = document.getElementById("CommentText").value;
     var ans_1 = "#inclde<stdio.h>";
 
