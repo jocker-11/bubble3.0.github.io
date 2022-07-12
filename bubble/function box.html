@@ -114,7 +114,7 @@
                     <li>完成後按"提交"，確認答案</li>
                     <li>答案確定正確後按 NEXT，進入下個單元</li>
                 </ol>
-                <form action="explain.js" method="get">
+                <!-- 不用一個 <form> 包，你不是要跟後端溝通 -->
                 <div class="example_code">
                     <input type="text" name="text"  size="40"; id="CommentText"value="// 加上stdio.h標頭檔">
                     <br>
@@ -124,8 +124,7 @@
                     <input type="text" name="text" size="40";  id="CommentText" value="// 大括弧">
                     <br>
                 </div>
-                    <input type="submit" value="提交">
-                </form>
+                    <button id="ans_submit"> 提交 </button>
             </div>
         </section>
     </div>
